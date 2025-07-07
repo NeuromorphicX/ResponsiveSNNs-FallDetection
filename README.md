@@ -1,27 +1,40 @@
-# ResponsiveSNNs
-This is the final code base for the paper "Improving Responsiveness of Fall Detection using Spiking Neural Networks" published in the  2025 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops). 
+# 🧠 ResponsiveSNNs
 
+**Improving Responsiveness of Fall Detection using Spiking Neural Networks**  
+_Published in the 2025 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)_
 
-## Abstract
+📄 [Paper Link](https://ieeexplore.ieee.org/abstract/document/11038662)
 
-Fall detection systems, essential for the safety of elderly individuals, have increasingly incorporated Deep Neural Networks (DNNs) for improved accuracy. However, real-time processing, especially on resource-constrained wearable devices, remains a major challenge due to the computational intensity of DNNs. Recently, Spiking Neural Networks (SNNs) have shown promise in improving energy efficiency in fall detection. Despite these advancements, the potential of SNNs to leverage their temporal dynamics—particularly, the ability to make sequential decisions based on the timing of input spikes—has not been fully explored for enhancing detection responsiveness. This paper proposes a novel approach to exploit the temporal nature of SNNs for faster fall detection. Specifically, we introduce a novel encoding technique, Quick Spike Encoding (QSE), which prioritizes critical inputs based on signal amplitude in temporal dimension, and a Linear Weighted Mean Squared Error Count (LW-MSEC) Loss Function, which emphasizes early detection by penalizing errors more heavily at the beginning of the detection process. Evaluations on two fall detection datasets demonstrate that our method significantly enhances the responsiveness of SNNs (>60%), achieving 91% accuracy in just 10 time steps compared to 25 time steps with traditional approaches, on the SisFall dataset.
+---
 
-Paper link: https://ieeexplore.ieee.org/abstract/document/11038662 
+## 🔍 Abstract
 
-## Citation 
+Fall detection systems, essential for the safety of elderly individuals, have increasingly incorporated Deep Neural Networks (DNNs) for improved accuracy. However, real-time processing—especially on resource-constrained wearable devices—remains a challenge due to the computational demands of DNNs.
 
-if you use this code in your reaseach please cite: 
+Recently, Spiking Neural Networks (SNNs) have shown promise for improving energy efficiency in fall detection. Yet, their potential to leverage **temporal dynamics** for faster responsiveness has not been fully explored.
 
+This work proposes:
+
+- **Quick Spike Encoding (QSE):** An encoding method that prioritizes critical inputs based on amplitude over time.
+- **Linear Weighted Mean Squared Error Count (LW-MSEC) Loss Function:** A loss function that emphasizes early detection by penalizing early-stage errors more heavily.
+
+Evaluations on two fall detection datasets show significant improvements:
+- **91% accuracy in just 10 time steps** on SisFall (vs 25 steps in standard baselines)
+- **Over 60% improvement in responsiveness**
+
+---
+
+## 📄 Citation
+
+If you use this code in your research, please cite:
 
 ```bibtex
-
 @INPROCEEDINGS{11038662,
   author={Sabbella, Hemanth and Mukherjee, Archit and Chuang, Tan Jeck and Yee Low, Hong and Ma, Dong and Misra, Archan},
   booktitle={2025 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)}, 
   title={Improving Responsiveness of Fall Detection using Spiking Neural Networks}, 
   year={2025},
-  volume={},
-  number={},
-  pages={98-103},
-  keywords={Accuracy;Conferences;Spiking neural networks;Encoding;Real-time systems;Timing;Safety;Fall detection;Wearable devices;Older adults;Spiking Neural Networks;Responsiveness;Spike Encoding;Weighted Loss Function},
-  doi={10.1109/PerComWorkshops65533.2025.00048}}
+  pages={98--103},
+  doi={10.1109/PerComWorkshops65533.2025.00048},
+  keywords={Accuracy;Conferences;Spiking neural networks;Encoding;Real-time systems;Timing;Safety;Fall detection;Wearable devices;Older adults;Spiking Neural Networks;Responsiveness;Spike Encoding;Weighted Loss Function}
+}
