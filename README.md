@@ -3,6 +3,12 @@ This is the final code base for the CoMoRea'25 Workshop paper collocated in PerC
 
 Paper link: https://ieeexplore.ieee.org/abstract/document/11038662 
 
+## Citation 
+
+if you use this code in your reaseach please cite: 
+
+
+```bibtex
 
 @INPROCEEDINGS{11038662,
   author={Sabbella, Hemanth and Mukherjee, Archit and Chuang, Tan Jeck and Yee Low, Hong and Ma, Dong and Misra, Archan},
