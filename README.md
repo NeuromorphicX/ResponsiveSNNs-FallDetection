@@ -1,4 +1,4 @@
-#  ᯓ➤ ResponsiveSNNs
+#  ᯓ➤ ResponsiveSNNs-FallDetection
 
 **Improving Responsiveness of Fall Detection using Spiking Neural Networks**  
 _Published in the 2025 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)_
