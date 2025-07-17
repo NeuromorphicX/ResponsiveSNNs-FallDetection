@@ -11,7 +11,7 @@ _Published in the 2025 IEEE International Conference on Pervasive Computing and 
 
 Fall detection systems, essential for the safety of elderly individuals, have increasingly incorporated Deep Neural Networks (DNNs) for improved accuracy. However, real-time processing—especially on resource-constrained wearable devices—remains a challenge due to the computational demands of DNNs.
 
-Recently, Spiking Neural Networks (SNNs) have shown promise for improving energy efficiency in fall detection. Yet, their potential to leverage **temporal dynamics** for faster responsiveness has not been fully explored.
+Recently, Spiking Neural Networks (SNNs) have shown promise for improving energy efficiency. Yet, their potential to leverage **temporal dynamics** for faster responsiveness has not been fully explored.
 
 This work proposes:
 
